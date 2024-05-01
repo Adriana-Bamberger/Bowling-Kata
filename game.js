@@ -1,7 +1,21 @@
 // Score 64 (simple game):
-// const frames = [
-//   [2, 0], [4, 2], [6, 0], [2, 4], [1, 5], [7, 0], [5, 2], [7, 0], [2, 6], [8, 1]
-// ]
+const frames = [
+  [2, 0], [4, 2], [6, 0], [2, 4], [1, 5], [7, 0], [5, 2], [7, 0], [2, 6], [8, 1]
+]
+function simpleAdd(frames) {
+  let sum = 0 
+  for (let i = 0; i < frames.length; i++) {
+    sum += frames[i][0] + frames[i][1]
+  }
+  console.log(sum);
+}
+
+simpleAdd(frames)
+
+// Take the numbers in the arrays within the array
+// Adding the numbers together to get a final score
+
+
 // Score 71 (with spares):
 // const frames = [
 //   [6, 1], [4, 0], [6, 4], [2, 7], [3, 5], [5, 0], [5, 5], [0, 0], [1, 6], [7, 2]
