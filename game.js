@@ -108,4 +108,4 @@ sparesAndStrikes(frames)
 
 // we have a math error, its broken somewhere in the middle but it fixes itself.
 //when we're running score 104. it still spits out 104,
-//but it's not going to help goign forawrd as we're just lucky that frame 7 spits out 3, as that was the diffrance needed to get 104.
+//but it's not going to help going forawrd as we're just lucky that frame 7 spits out 3, as that was the diffrance needed to get 104.
