@@ -1,5 +1,5 @@
-# Bowling kata
-The Bowling kata project focuses on creating a program to score a game of ten-pin bowling. The challenge involves calculating scores based on the rules of bowling, handling strikes, spares, and open frames across ten frames.
+# Bowling Kata
+A game of ten-pin bowling, involving calculating scores based on the rules of bowling, handling strikes, spares, and open frames across ten frames.
 
 To run this locally you'll need to clone the repository and run the program with "node game.js"
 
